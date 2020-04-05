@@ -4,7 +4,7 @@
 Major institutions have reported spending up to $500 million per year on KYC (Know Your Customer) and customer due diligence. The KYC process is very manual and affects customer experience. Automated KYC checks can result in huge cost savings for the institutions and provide better customer experience to the end users.
 
 ## What it does
-Auto KYC is an automated KYC Platform for fintech, airlines, hospitality industry, etc. It allows the customer's passport to be uploaded using dashboard or via a REST API. It then gives various details like whether the passport is valid, expiry date, nationality, name, passport number, etc. All of these details can be automatically entered in your database and you can then redirect the user to the different flows if the passport is valid.
+Auto KYC is an automated KYC Platform for fintech, airlines, hospitality industry, etc. It allows the customer's passport to be uploaded using a dashboard or via a REST API. It then gives various details like whether the passport is valid, expiry date, nationality, name, passport number, etc. All of these details can be automatically entered in your database and you can then redirect the user to the different flows if the passport is valid. Hence Auto KYC provides an Automated KYC Verification Solution for Businesses.
 
 ## How I built it
 Auto KYC is built using python, flask and AWS Sagemaker. It uses the "Passport Data Page Detection" ML model from the AWS marketplace.
