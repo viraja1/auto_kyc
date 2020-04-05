@@ -44,5 +44,6 @@
 
 ## Screenshots
 ![](screenshots/auto_kyc_1.png)
+
 ![](screenshots/auto_kyc_2.png)
 
