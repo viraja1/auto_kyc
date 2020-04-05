@@ -1,0 +1,4 @@
+gevent==1.4.0
+Werkzeug==0.15.2
+Flask==1.0.2
+boto3==1.12.36
