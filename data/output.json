@@ -1,0 +1,27 @@
+{
+   "data":{
+      "check_composite":"6",
+      "check_date_of_birth":"0",
+      "check_expiration_date":"7",
+      "check_number":"4",
+      "check_personal_number":"3",
+      "country":"China",
+      "date_of_birth":"08/08/1980",
+      "expiration_date":"05/02/2017",
+      "expired":"true",
+      "names":"KHOK SUH",
+      "nationality":"CHN",
+      "number":"K12365599",
+      "personal_number":"HK8888888",
+      "sex":"Female",
+      "surname":"CNUNG",
+      "valid_composite":false,
+      "valid_date_of_birth":true,
+      "valid_expiration_date":true,
+      "valid_number":false,
+      "valid_personal_number":true,
+      "valid_score":62
+   },
+   "reason":"",
+   "valid":true
+}
