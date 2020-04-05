@@ -57,3 +57,6 @@ Auto KYC is built using python, flask and AWS Sagemaker. It uses the "Passport D
 
 ![](screenshots/auto_kyc_2.png)
 
+## Architecture Diagram
+![](screenshots/architecture_diagram.png)
+
