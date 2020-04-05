@@ -39,7 +39,7 @@
 
 8) Try CURL requests
    ```
-   $ curl -X POST -F file=@passport.jpg http://127.0.0.1:8080/auto_kyc
+   $ curl -X POST -F file=@data/passport.jpg http://127.0.0.1:8080/auto_kyc
    ```
 
 ## Screenshots
