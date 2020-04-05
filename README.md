@@ -49,6 +49,8 @@ Auto KYC is built using python, flask and AWS Sagemaker. It uses the "Passport D
    ```
    $ curl -X POST -F file=@data/passport.jpg http://127.0.0.1:8080/auto_kyc
    ```
+   
+9) Sample input and output are present in the [data](data) folder   
 
 ## Screenshots
 ![](screenshots/auto_kyc_1.png)
