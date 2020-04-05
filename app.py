@@ -17,7 +17,7 @@ AWS_REGION = os.environ.get("AWS_REGION")
 runtime = boto3.client('runtime.sagemaker', aws_access_key_id=AWS_ACCESS_KEY, aws_secret_access_key=AWS_SECRET_KEY,
                        region_name=AWS_REGION)
 
-print(' Check http://127.0.0.1:8080/')
+print('Check http://127.0.0.1:8080/')
 
 
 @app.route('/', methods=['GET'])
@@ -26,7 +26,7 @@ def index():
 
 
 @app.route('/auto_kyc', methods=['POST'])
-def predict_image_class():
+def auto_kyc():
     img = request.files['file'].read()
     payload = bytearray(img)
     response = runtime.invoke_endpoint(EndpointName=SAGEMAKER_ENDPOINT, ContentType='application/x-image',
